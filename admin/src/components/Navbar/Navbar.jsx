@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <img className='logo' src={assets.logo} alt="logo" />
-      <img className='profile' src={assets.profile_image} alt="profile-img" />
+      <img className='profile' src={assets.old_cv_pic} alt="profile-img" />
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
