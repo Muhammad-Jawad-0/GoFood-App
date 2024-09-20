@@ -7,7 +7,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 // placing user order for frontend
 
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5173" || "http://localhost:5174/";
+  const frontend_url = "http://localhost:5173" || "http://localhost:5174/ " || "https://goofood-server-production.up.railway.app";
   try {
     const newOrder = new orderModel({
       userId: req.body.userId,
